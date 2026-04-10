@@ -12,7 +12,7 @@ class Empleados
             if (value > 1500)
             {
                 Console.WriteLine("Salario valido");
-                saldo = value;
+                saldo = value; 
             }
             else
             {
