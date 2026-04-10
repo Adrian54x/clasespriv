@@ -1,10 +1,10 @@
-﻿Estudiante e = new Estudiante();
+﻿Producto p = new Producto();
 e.Edad = 98;
-class Estudiante
+class Producto
 {
-    private int edad;
+    private double edad;
 
-    public int Edad
+    public double Edad
     {
         get { return edad; }
         set
