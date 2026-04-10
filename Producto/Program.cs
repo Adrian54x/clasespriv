@@ -1,18 +1,18 @@
 ﻿Producto p = new Producto();
-e.Edad = 98;
+p.Precio = 8;
 class Producto
 {
-    private double edad;
+    private double precio;
 
-    public double Edad
+    public double Precio
     {
-        get { return edad; }
+        get { return precio; }
         set
         {
-            if (value > 0 && value <= 100)
+            if (value > 0)
             {
-                Console.WriteLine("Edad valida");
-                edad = value;
+                Console.WriteLine("Precio valido");
+                precio = value;
             }
             else
             {
