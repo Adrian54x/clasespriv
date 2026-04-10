@@ -1,5 +1,6 @@
 <Solution>
   <Project Path="CuentaBancaria/CuentaBancaria.csproj" />
+  <Project Path="Empleado/Empleado.csproj" />
   <Project Path="Estudiantes/Estudiantes.csproj" />
   <Project Path="Producto/Producto.csproj" />
 </Solution>
